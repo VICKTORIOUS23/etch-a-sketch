@@ -1,0 +1,95 @@
+body {
+    background-color:darkslategray;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    padding:0px;
+    margin:0px;
+}
+
+.header {
+    display:flex;
+    background-color:rgb(31, 37, 37);
+    height:60px;
+    justify-content:center;
+    width:100%;
+
+}
+
+.headerlayout {
+    display:flex;
+    justify-content:space-between;
+    width:1024px;
+    background-color:rgb(31,37,37);
+    height:60px;
+    align-items:center;
+}
+
+.logo {
+    font-size:20px;
+    font-weight:900px;
+    font-family:'Helvetica', 'sans-serif';
+    color:white;
+    display:flex;
+    padding-left:16px;
+}
+
+.titleList {
+    list-style:none;
+    display:flex;
+    justify-content:right;
+    color:white;
+    padding-right:16px;
+    gap:10px;
+}
+
+.titleLink {
+    color:white;
+    text-decoration:none;
+}
+
+.sketchBG {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    width:640px;
+    height:640px;
+    
+    background-color:rgb(50, 50, 50);
+    border:solid, 4px, black;
+    box-sizing:content-box;
+}
+
+.content {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:30px;
+}
+
+.sketchContainer {
+    height: 640px;
+    width: 640px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+
+.titleLinkBtn {
+    background:none;
+    border: none;
+    color:white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.grid-cell {
+    border: .5px solid grey;
+    background-color: white;
+}
